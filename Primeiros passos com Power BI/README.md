@@ -3,7 +3,7 @@
 ![DAX](https://img.shields.io/badge/DAX-Data_Analysis_Expressions-blue)
 ![Power Query](https://img.shields.io/badge/PowerQuery-ETL-green)
 
-[Project Banner](https://source.unsplash.com/random/800x200?statistics)
+[Project Banner](https://source.unsplash.com/random/800x200?machine,learning)
 
 ## Descrição do Projeto
 
@@ -53,7 +53,7 @@ Criamos várias medidas e colunas calculadas utilizando DAX para facilitar a an�
 - **Visual Mapa 2**:
   - Adicionamos um segundo mapa e configuramos os dados para exibir a soma do lucro por país.
 
-![Visual Mapa 2](https://github.com/PhilipeOliveiraS/Data-Analytics-com-Power-BI/blob/main/Primeiros%20passos%20com%20Power%20BI/Mapa1.png)
+![Visual Mapa 2](https://github.com/PhilipeOliveiraS/Data-Analytics-com-Power-BI/blob/main/Primeiros%20passos%20com%20Power%20BI/Mapa2.png)
 
 - **Visual de Pizza**:
   - Adicionamos um gráfico de pizza e configuramos os dados para exibir o lucro por segmento.
