@@ -3,7 +3,6 @@
 ![DAX](https://img.shields.io/badge/DAX-Data_Analysis_Expressions-blue)
 ![Power Query](https://img.shields.io/badge/PowerQuery-ETL-green)
 
-[Project Banner](https://source.unsplash.com/random/800x200?machine,learning)
 
 ## Descrição do Projeto
 
