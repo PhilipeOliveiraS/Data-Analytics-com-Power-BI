@@ -1,5 +1,14 @@
 # 📊 Painel do Power BI: Caracterização Detalhada da Base de Dados Teste Company
 
+
+![SQL](https://img.shields.io/badge/SQL-MySQL-blue)
+![Power BI](https://img.shields.io/badge/Power%20BI-Visualização-yellow)
+![DAX](https://img.shields.io/badge/DAX-Data_Analysis_Expressions-blue)
+![Power Query](https://img.shields.io/badge/PowerQuery-ETL-green)
+![Azure](https://img.shields.io/badge/Azure-Cloud-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
+
+
 ## 📚 Introdução
 
 Este projeto mergulha na caracterização abrangente da base de dados Teste Azure_Company, utilizando a poderosa integração entre o Power BI e um banco de dados MySQL hospedado no Azure. O objetivo principal é fornecer uma análise detalhada dos dados contidos na base de teste, servindo como um protótipo valioso para análises e visualizações. As informações obtidas através deste estudo contribuem significativamente para a avaliação e validação dos processos de integração e transformação de dados.
@@ -10,6 +19,9 @@ Os dados utilizados neste projeto foram cuidadosamente selecionados a partir de 
 
 **Link do servidor no Azure:** [projetos-powerbi.mysql.database.azure.com](https://projetos-powerbi.mysql.database.azure.com)
 
+![Database no Azure](https://github.com/PhilipeOliveiraS/Data-Analytics-com-Power-BI/blob/main/Projeto%202%20-%20Dashboard%20corporativo%20com%20integra%C3%A7%C3%A3o%20com%20MySQL%20e%20Azure/Database%20no%20Azure.png)
+
+![Fonte de dados do Power BI - database no Azure](https://github.com/PhilipeOliveiraS/Data-Analytics-com-Power-BI/blob/main/Projeto%202%20-%20Dashboard%20corporativo%20com%20integra%C3%A7%C3%A3o%20com%20MySQL%20e%20Azure/Fonte%20de%20dados%20do%20Power%20BI%20-%20database%20no%20Azure.png)
 
 ## ⚙️ Processamento e Transformação de Dados
 
@@ -20,6 +32,12 @@ Para construir este painel completo, foi implementado um pipeline meticuloso de 
 3. **Integração do Power BI com MySQL no Azure:** Uma integração perfeita entre o Power BI e o banco de dados MySQL hospedado no Azure foi estabelecida, garantindo a comunicação fluida entre as ferramentas.
 4. **Análise Detalhada da Base de Dados:** Um exame minucioso da base de dados foi conduzido para identificar e solucionar possíveis problemas de qualidade dos dados, garantindo a confiabilidade das informações.
 5. **Implementação do Processo ETL:** Todo o processo de Extração, Transformação e Carregamento (ETL) foi meticulosamente executado, assegurando a limpeza, consistência e organização dos dados para posterior análise.
+
+![Conexão do BD](https://github.com/PhilipeOliveiraS/Data-Analytics-com-Power-BI/blob/main/Projeto%202%20-%20Dashboard%20corporativo%20com%20integra%C3%A7%C3%A3o%20com%20MySQL%20e%20Azure/azure%20bd%20connection.png)
+
+![Conectando as tabelas do database no Azure no Power BI](https://github.com/PhilipeOliveiraS/Data-Analytics-com-Power-BI/blob/main/Projeto%202%20-%20Dashboard%20corporativo%20com%20integra%C3%A7%C3%A3o%20com%20MySQL%20e%20Azure/Conectando%20as%20tabelas%20no%20database%20no%20Azure.png)
+
+![Lista de tabelas no database no Azure](https://github.com/PhilipeOliveiraS/Data-Analytics-com-Power-BI/blob/main/Projeto%202%20-%20Dashboard%20corporativo%20com%20integra%C3%A7%C3%A3o%20com%20MySQL%20e%20Azure/Lista%20de%20tabelas%20no%20database%20no%20Azure.png)
 
 ## 🛠️ Ferramentas Utilizadas
 
@@ -67,7 +85,10 @@ Para garantir a precisão, confiabilidade e usabilidade dos dados, as seguintes 
 13. **Criação de Combinações Únicas de Departamento e Localização:** Os nomes dos departamentos e suas respectivas localizações foram combinados, gerando combinações únicas que serão fundamentais para a construção do modelo estrela em etapas futuras.
 14. 📝 **Justificativa para o Uso da Função Mesclar:** Uma explicação detalhada sobre a razão pela qual a função mesclar é mais adequada do que a função atribuir no contexto apresentado no print abaixo.
 
-**Justificativa:**
+![Explicação de procedimento 14](https://github.com/PhilipeOliveiraS/Data-Analytics-com-Power-BI/blob/main/Projeto%202%20-%20Dashboard%20corporativo%20com%20integra%C3%A7%C3%A3o%20com%20MySQL%20e%20Azure/explica%C3%A7%C3%A3o%20de%20procedimento%2014.png)
+
+    |Justificativa| 
+
 
 A imagem fornecida apresenta um cenário onde duas tabelas, "Gerente" e "Colaborador", contêm dados de funcionários. A tabela "Gerente" possui colunas para nomes e números de previdência social dos gerentes, enquanto a tabela "Colaborador" possui colunas para nomes, números de previdência social e números de departamento dos funcionários. O objetivo é combinar essas tabelas para criar uma única tabela que inclua informações tanto sobre funcionários quanto sobre gerentes.
 
@@ -95,34 +116,51 @@ Em contraste, a função "Atribuir" é usada principalmente para atribuir valore
 
 Para o cenário fornecido de combinar dados de funcionários e gerentes de duas tabelas com um relacionamento um-para-muitos, a função "Mesclar" é a escolha mais apropriada e eficiente. Ela lida efetivamente com a estrutura de dados, junta em colunas comuns, cria uma tabela de saída abrangente e oferece uma abordagem direta.
 
+    || 
 
 15. **Agrupamento de Colaboradores por Gerente:** Os dados foram agrupados para determinar o número de colaboradores sob a responsabilidade de cada gerente, fornecendo uma visão geral da estrutura organizacional.
 16. **Eliminação de Colunas Desnecessárias:** Colunas que não apresentavam relevância para o relatório final foram eliminadas, otimizando o conjunto de dados e facilitando a análise.
 
-## 🛠️ Construção do Dashboard
+17. **Publicação do Relatório no Power BI Service:**
+     O relatório foi publicado no Power BI Service para disponibilização e visualização interativa.
+  
 
-Com base nos dados transformados e enriquecidos, foi construído um painel informativo e visualmente atraente no Power BI. O painel apresenta uma série de visualizações que permitem uma análise profunda dos dados, destacando insights relevantes para a empresa.
+18. **Desenvolvimento do Dashboard:**
+    - Com base nos dados transformados e enriquecidos, foi desenvolvido um painel informativo e visualmente atraente no Power BI, que inclui visualizações detalhadas e insights para análise empresarial.
+
+
+## 🛠️ Dashboard
+
+O painel apresenta uma série de visualizações que permitem uma análise profunda dos dados, destacando insights relevantes para a empresa.
 
 **Link do Dashboard:** [Power BI Dashboard](https://app.powerbi.com/groups/me/reports/d1bed8db-ca3b-4d15-bc6b-231f38f6ee53/ReportSection?experience=power-bi)
 
-### 📊 Elementos Visuais Sugeridos
-
-- **Distribuição de Homens e Mulheres entre os Departamentos:** Visualize a distribuição de gênero em diferentes departamentos para verificar a proximidade e diversidade.
-- **Desempenho por Departamento:** Analise o desempenho de cada departamento em termos de produtividade e eficiência.
-- **Localização dos Departamentos:** Mapeie a distribuição geográfica dos departamentos para entender a logística e a alocação de recursos.
-- **Relação entre Gerentes e Funcionários:** Visualize a hierarquia organizacional, mostrando a relação entre gerentes e seus subordinados.
-- **Análise de Salários:** Compare os salários dos funcionários dentro e entre os departamentos para identificar disparidades ou áreas para ajustes.
-
-## 📌 Badges
-
-![SQL](https://img.shields.io/badge/SQL-MySQL-blue)
-![Power BI](https://img.shields.io/badge/Power%20BI-Visualização-yellow)
-![Azure](https://img.shields.io/badge/Azure-Cloud-blue)
-![License](https://img.shields.io/badge/License-MIT-green)
+![Dashboard corporativo com integração com MySQL e Azure](https://github.com/PhilipeOliveiraS/Data-Analytics-com-Power-BI/blob/main/Projeto%202%20-%20Dashboard%20corporativo%20com%20integra%C3%A7%C3%A3o%20com%20MySQL%20e%20Azure/Dashboard%20corporativo%20com%20integra%C3%A7%C3%A3o%20com%20MySQL%20e%20Azure.png)
 
 ---
 
 ## 🚀 Conclusão
 
-Este projeto representa um passo importante na caracterização da base de dados da Teste Company, fornecendo uma base sólida para futuras análises e tomadas de decisão. O painel desenvolvido oferece uma visão abrangente dos dados, permitindo identificar oportunidades de melhoria e otimização dos processos.
+Este projeto representa um passo importante na caracterização da base de dados Teste Azure_Company, fornecendo uma base sólida para futuras análises e tomadas de decisão. O painel desenvolvido oferece uma visão abrangente dos dados, permitindo identificar oportunidades de melhoria e otimização dos processos.
 
+## 🤝 Contribuições
+
+Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request.
+
+## 📜 Licença
+
+Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+## 📬 Contato
+
+
+- **LinkedIn**: [Philipe Oliveira](https://www.linkedin.com/in/philipe-oliveira-b0052a21)
+
+---
+
+![GitHub repo size](https://img.shields.io/github/repo-size/PhilipeOliveiraS/Data-Analytics-com-Power-BI)
+![GitHub contributors](https://img.shields.io/github/contributors/PhilipeOliveiraS/Data-Analytics-com-Power-BI)
+![GitHub stars](https://img.shields.io/github/stars/PhilipeOliveiraS/Data-Analytics-com-Power-BI?style=social)
+![GitHub forks](https://img.shields.io/github/forks/PhilipeOliveiraS/Data-Analytics-com-Power-BI?style=social)
+![GitHub issues](https://img.shields.io/github/issues/PhilipeOliveiraS/Data-Analytics-com-Power-BI)
+![GitHub license](https://img.shields.io/github/license/PhilipeOliveiraS/Data-Analytics-com-Power-BI)
