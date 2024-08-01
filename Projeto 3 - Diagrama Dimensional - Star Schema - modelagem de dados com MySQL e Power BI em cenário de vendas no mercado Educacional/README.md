@@ -21,7 +21,7 @@ Este projeto envolve a criação de um banco de dados para uma instituição de 
 * **SQL:** Linguagem de consulta utilizada para criar e manipular os dados.
 ---
 
-🎯![Diagrama Dimensional - Universidade](https://github.com/PhilipeOliveiraS/Data-Analytics-com-Power-BI/tree/main/Projeto%203%20-%20Diagrama%20Dimensional%20-%20Star%20Schema%20-%20modelagem%20de%20dados%20com%20MySQL%20e%20Power%20BI/der_universidade.png)
+🎯![Diagrama Dimensional - Universidade](https://github.com/PhilipeOliveiraS/Data-Analytics-com-Power-BI/blob/main/Projeto%203%20-%20Diagrama%20Dimensional%20-%20Star%20Schema%20-%20modelagem%20de%20dados%20com%20MySQL%20e%20Power%20BI%20em%20cen%C3%A1rio%20de%20vendas%20no%20mercado%20Educacional/der_universidade.png)
 ---
 
 ### ⚙️ Análise do Código SQL
