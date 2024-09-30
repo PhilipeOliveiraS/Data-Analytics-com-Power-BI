@@ -28,10 +28,10 @@ Este projeto tem como objetivo principal treinar a habilidade de criação de re
 
 ### Desenvolvimento dos Visuais
 - **Relatório Criativo - Página 1**:
-  ![Print 1 do Relatório](https://github.com/PhilipeOliveiraS/Data-Analytics-com-Power-BI/blob/main/Desafio%20de%20Projeto%201/Print%201%20-%20Relatório_Criativo.png)
+  ![Print 1 do Relatório](https://github.com/PhilipeOliveiraS/Data-Analytics-com-Power-BI/blob/main/Projeto%201%20-%20Relat%C3%B3rio%20e%20Dashboard%20Criativo/Print%201%20-%20Relat%C3%B3rio_Criativo.png?raw=true)
 
 - **Relatório Criativo - Página 2**:
-  ![Print 2 do Relatório](https://github.com/PhilipeOliveiraS/Data-Analytics-com-Power-BI/blob/main/Desafio%20de%20Projeto%201/Print%202%20-%20Relatório_Criativo.png)
+  ![Print 2 do Relatório](https://github.com/PhilipeOliveiraS/Data-Analytics-com-Power-BI/blob/main/Projeto%201%20-%20Relat%C3%B3rio%20e%20Dashboard%20Criativo/Print%202%20-%20Relat%C3%B3rio_Criativo.png?raw=true)
 
 
 ## 🔍 Fundamentos do Power BI
